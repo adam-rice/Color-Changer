@@ -31,3 +31,12 @@ button:hover {
   border-left-color: #E5B6D5;
   cursor: pointer;
 }
+@media screen and (max-width: 600px) {
+  #content {
+    display: flex;
+    flex-direction: column;
+  }
+  #reset {
+    height: 55px;
+  }
+}
