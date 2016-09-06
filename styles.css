@@ -1,3 +1,26 @@
 body {
   font-family: 'Open Sans', sans-serif;
 }
+#content {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+button {
+  background-color: #E5B6D5;
+  border-style: solid;
+  border-top-color: #B2479A;
+  border-bottom-color: #B2479A;
+  border-right-color: #CC7FB5;
+  border-left-color: #CC7FB5;
+  border-width: 10px;
+  color: #FFFFFF;
+  font-size: 20px;
+  height: 100px;
+  width: 200px;
+  margin: 20px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: 700;
+}
