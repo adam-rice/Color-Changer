@@ -20,6 +20,7 @@ button {
   height: 100px;
   width: 200px;
   margin: 20px;
+  outline: none;
   text-align: center;
   text-decoration: none;
 }
