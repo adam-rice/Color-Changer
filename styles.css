@@ -16,11 +16,18 @@ button {
   border-left-color: #CC7FB5;
   border-width: 10px;
   color: #FFFFFF;
-  font-size: 20px;
+  font-size: 22px;
   height: 100px;
   width: 200px;
   margin: 20px;
   text-align: center;
   text-decoration: none;
-  font-weight: 700;
+}
+button:hover {
+  background-color: #B2479A;
+  border-top-color: #CC7FB5;
+  border-bottom-color: #CC7FB5;
+  border-right-color: #E5B6D5;
+  border-left-color: #E5B6D5;
+  cursor: pointer;
 }
