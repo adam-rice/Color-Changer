@@ -1,1 +1,2 @@
-var yay = $('yay')
+var $random = $('#random')
+var $reset = $('#reset')
