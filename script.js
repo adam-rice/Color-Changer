@@ -5,11 +5,11 @@ $(document).ready(function() {
           if ('backgroundColor' === "#FFFFFF") {
           return getRandomColor() }
           })
-      })
 
-$("#reset").click( function() {
-  $("body").css("backgroundColor", "#FFFFFF")
-})
+        $("#reset").click( function() {
+          $("body").css("backgroundColor", "#FFFFFF")
+        })
+      })
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
