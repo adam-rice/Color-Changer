@@ -23,7 +23,6 @@ button {
   margin: 20px;
   outline: none;
   text-align: center;
-  text-decoration: none;
 }
 button:hover {
   background-color: #B2479A;
@@ -40,5 +39,6 @@ button:hover {
   }
   #reset {
     height: 55px;
+    font-size: 18px;
   }
 }

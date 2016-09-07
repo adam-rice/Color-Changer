@@ -1,6 +1,3 @@
-// var $random = $('#random');
-// var $reset = $('#reset');
-// var $content = $('#content');
 
 $(document).ready(function() {
     $("#random").click(function() {
