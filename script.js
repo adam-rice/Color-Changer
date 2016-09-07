@@ -4,9 +4,15 @@
 
 $(document).ready(function() {
     $("#random").click(function() {
-        $("body").css("backgroundColor", getRandomColor() );
-    });
-});
+        $("body").css("backgroundColor", getRandomColor() )
+          if ('backgroundColor' === "#FFFFFF") {
+          getRandomColor() }
+          })
+      })
+
+$("#reset").click( function() {
+  $("body").css("backgroundColor", "#FFFFFF")
+})
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
