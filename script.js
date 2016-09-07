@@ -6,7 +6,7 @@ $(document).ready(function() {
     $("#random").click(function() {
         $("body").css("backgroundColor", getRandomColor() )
           if ('backgroundColor' === "#FFFFFF") {
-          getRandomColor() }
+          return getRandomColor() }
           })
       })
 
