@@ -1,15 +1,7 @@
-
 $(document).ready(function() {
-    $("#random").click(function() {
-        $("body").css("backgroundColor", getRandomColor() )
-          if ('backgroundColor' === "#FFFFFF") {
-          return getRandomColor() }
-          })
-
-        $("#reset").click( function() {
-          $("body").css("backgroundColor", "#FFFFFF")
-        })
-      })
+  randomButton();
+  resetButton();
+})
 
 function getRandomColor() {
     var letters = '0123456789ABCDEF';
@@ -18,4 +10,19 @@ function getRandomColor() {
         color += letters[Math.floor(Math.random() * 16)];
     }
     return color;
+}
+
+function resetButton() {
+  $("#reset").click( function() {
+    $("body").css("backgroundColor", "#FFFFFF")
+  })
+}
+
+function randomButton() {
+  $("#random").click(function() {
+    var backgroundColor = $("body").css("backgroundColor", getRandomColor() )
+    if (backgroundColor === "#FFFFFF") {
+      getRandomColor()
+    }
+  })
 }
