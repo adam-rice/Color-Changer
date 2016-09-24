@@ -1,6 +1,6 @@
 Color Changer
 
-https://adam-rice.github.io/color-changer-rice/
+[Try it out!](https://adam-rice.github.io/color-changer-rice/)
 
 A default window background color of white.
 Two buttons.
